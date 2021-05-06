@@ -4,7 +4,7 @@ module.exports.run = async (bot, message, args) => {
 
     try {
 
-        var text = "**Limburg Bot** \n\n **__Commands__** \n .hallo - Geeft een Hallo Terug \n .info - Geeft Info. \n .serverinfo - Geeft Server Info Terug \n .clear - Verwijder een aantal berichten \n .sps - Speel blad steen schaar \n .ticket maak ticket aan \n .ping - doe dat om je MS te zien \n .botinfo - Om alle info te verzamelen \n .suggestie - Om een suggestie te sturen \n .dobbel - Je hebt zoveel gegooid \n .kopofmunt - Gooi kop of munt \n .lock - Lock de Channel \n .unlock - unlock de channel \n .kick - kick iemand uit de discord \n .ban - Ban iemand uit de discord \n .gamelink - Geeft de gamelink!";
+        var text = "**Limburg Bot** \n\n **__Commands__** \n .hallo - Geeft een Hallo Terug \n .info - Geeft Info. \n .serverinfo - Geeft Server Info Terug \n .clear - Verwijder een aantal berichten \n .sps - Speel blad steen schaar \n .ticket maak ticket aan \n .botinfo - Om alle info te verzamelen \n .suggestie - Om een suggestie te sturen \n .dobbel - Je hebt zoveel gegooid \n .kopofmunt - Gooi kop of munt \n .lock - Lock de Channel \n .unlock - unlock de channel \n .kick - kick iemand uit de discord \n .ban - Ban iemand uit de discord \n .gamelink - Geeft de gamelink!";
         
         message.author.send(text)
 
