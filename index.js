@@ -45,7 +45,7 @@ bot.on("message", async message => {
  
     if(message.channel.type === "dm") return;
     
-    var prefixes = JSON.parse(fs.readfileSync("./prefixes.json"));
+    var prefixes = JSON.parse(fs.readFileSync("./prefixes.json"));
 
     if(!prefixes[message.guild.id]) {
        prefixes[message.guild.id] = {
