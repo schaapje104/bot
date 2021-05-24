@@ -27,6 +27,21 @@ fs.readdir("./commands/" , (err, files) => {
 
 });
 
+bot.on("guildMemberAdd", member =>{
+
+   var role = member.guild.roles.cache.get('737610553652019271');
+
+   if(!role) return; 
+
+   member.roles.add(role);
+
+   var channel = member.guild.channels.cache.get('695658246123552828');
+
+   if(!channel) return;
+
+   channel.send(`Welkom bij de server ${member}`)
+    
+})
 
 bot.login(process.env.token);
  
